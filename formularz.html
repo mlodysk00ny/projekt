@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<title> Formularz Członkostwa </title>
+<style>
+body {
+  background-image: url('track.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#zaoblenieform {
+  border-radius: 25px;
+  padding: 20px; 
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.4); 
+  margin: auto;
+} 
+
+</style>
+</head>
+
+<body>
+
+<div>
+<form action="mailto:jakis@mail" method="post" enctype="text/plain">
+<h4 style="color:white">
+<div id="zaoblenieform">
+<p style="color: black; font-family:verdana;"> Podaj swoje imię </p>
+<input name="Imię">
+<p style="color: black; font-family:verdana;"> Podaj swoje nazwisko </p>
+<input name="Nazwisko">
+</div>
+<br>
+<div id="zaoblenieform">
+<p style="color: black; font-family:verdana;">Podaj swoją płeć:</p>
+<input type="radio" id="kobieta" name="Płeć" value="Kobieta">
+<label for="kobieta" style="color: black; font-family:verdana;"> Kobieta </label><br>
+<input type="radio" id="mężczyzna"  name="Płeć" value="Mężczyzna">
+<label for="mężczyzna" style="color: black; font-family:verdana;"> Mężczyzna</label>
+</div>
+<br>
+<div id="zaoblenieform">
+<p style="color: black; font-family:verdana;">Ile masz lat?</p>
+<input name="Wiek">
+</div>
+<br>
+<div id="zaoblenieform">
+<p style="color: black; font-family:verdana;">Jakie jest twoje hobby?</p>
+<input type="checkbox" id="mechanika" name="Mechanika" value="Mechanika">
+<label for="mechanika" style="color: black; font-family:verdana;"> Mechanika </label><br>
+<input type="checkbox" id="programowanie" name="Programowanie" value="Programowanie">
+<label for="programowanie" style="color: black; font-family:verdana;"> Programowanie </label><br>
+<input type="checkbox" id="elektronika" name="Elektronika" value="Elektronika">
+<label for="elektechnika" style="color: black; font-family:verdana;"> Elektrotechnika </label><br>
+<input type="checkbox" id="matematyka" name="Matematyka" value="Matematyka">
+<label for="matematyka" style="color: black; font-family:verdana;"> Matematyka </label><br>
+<input type="checkbox" id="jazda" name="Jazda" value="Jazda">
+<label for="jazda" style="color: black; font-family:verdana;"> Po prostu jazda :) </label><br>
+<input type="checkbox" id="inne" name="Inne" value="Inne">
+<label for="inne" style="color: black; font-family:verdana;"> Inne (podaj jakie):
+<input name="Hobby">
+</div>
+<br>
+<div id="zaoblenieform">
+<p style="color: black; font-family:verdana;">Jakie masz auto?</p>
+<select name="Auto">
+	<option selected>Sedan</option>
+	<option>Kombi</option>
+	<option>Cabrio</option>
+	<option>Sportowe</option>
+	<option>Terenowe</option>
+</select>
+</div>
+<br>
+<div id="zaoblenieform">
+<p style="color: black; font-family:verdana;"> Jak długo miałeś doczynienia z Mazdą MX-5?</p>
+<select name="System operacyjny" multiple size="3">
+	<option selected>Mniej niż 1 rok</option>
+	<option>1-2 lata lat</option>
+	<option>2-5 lat</option>
+	<option>Więcej niż 5 lat 
+	<option> Nigdy </option>
+</select>
+</div>
+<br>
+<div id="zaoblenieform">
+<p style="color: black; font-family:verdana;">Prosimy podać swój adres E-Mail oraz komantarz</p>
+<textarea name="Komentarz" cols="50" rows="10">^^</textarea>
+</div>
+<br>
+<br>
+<br>
+<div id="zaoblenieform">
+<input type="reset" value="Wyczyść Formularz">
+<input type="submit" value="Wyślij">
+</form>
+<br>
+<br>
+<br>
+<form>
+  <button formaction="p2.html">Przejdź Dalej</button>
+</form>
+</div>
+</html
